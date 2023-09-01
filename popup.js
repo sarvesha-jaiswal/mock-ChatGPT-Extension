@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   async function fetchChatGPTResponse(question) {
     try {
-      const apiKey = "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"; // Replace with your actual ChatGPT API key
+      const apiKey = "YOUR-API-KEY"; // Replace with your actual ChatGPT API key
       const response = await fetch("https://api.openai.com/v1/engines/davinci/completions", {
         method: "POST",
         headers: {
